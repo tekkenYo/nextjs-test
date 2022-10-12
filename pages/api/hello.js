@@ -7,10 +7,7 @@ export default function handler(req, res) {
     namespace: 'myNamespace',
     data: { variable: 'test123' },
   },
-  messages: [{ type: 'text', config: { textMessages: [{ text: 'random message 1' }] } }],
-  action: {
-    nextDialogstate: 'dialogstate-123-abc',
-  },
+  messages: [{ type: 'text', config: { textMessages: [{ text: 'random message 1' }] } }]
 };
   
   
