@@ -4,10 +4,9 @@ export default function handler(req, res) {
   
   const result = {
   session: {
-    namespace: 'myNamespace',
-    data: { variable: 'test123' },
-  },
-  messages: [{ type: 'text', config: { textMessages: [{ text: 'random message 1' }] } }]
+    namespace: 'session',
+    data: { group: 'group-a' },
+  }
 };
   
   
