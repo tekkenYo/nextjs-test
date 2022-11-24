@@ -2,8 +2,7 @@
 
 export default function handler(req, res) {
   
-  const result = "kimoyo_wa_v1menu_tst"
-};
+  const result = "kimoyo_wa_v1menu_tst";
   
   
   res.status(200).json(result)
