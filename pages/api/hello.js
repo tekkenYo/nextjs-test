@@ -2,11 +2,7 @@
 
 export default function handler(req, res) {
   
-  const result = {
-  session: {
-    namespace: 'session',
-    data: { group: 'group-a' },
-  }
+  const result = "kimoyo_wa_v1menu_tst"
 };
   
   
