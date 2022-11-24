@@ -1,7 +1,7 @@
 export default function handler(req, res) {
   
   const result = {
-  groupValue: 1
+  groupValue: [1, 0]
 };
   
   
