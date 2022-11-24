@@ -1,7 +1,7 @@
 export default function handler(req, res) {
   
   const result = {
-  passTest: true
+  passTest: 1
 };
   
   
