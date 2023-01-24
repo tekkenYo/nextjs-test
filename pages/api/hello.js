@@ -4,8 +4,7 @@ export default function handler(req, res) {
   
   const result = {
     proctorGroup: "kimoyo_wa_v1menu_tst",
-    req: req
+    req.body.step: req.body.step
   };
-  console.log(req)
   res.status(200).json(result)
 }
