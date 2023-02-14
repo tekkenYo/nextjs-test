@@ -2,7 +2,7 @@
 
 export default function handler(req, res) {
   const result = {
-    proctorGroup: "kimoyo_wa_v1menu_tst",
+    payload: "{\"userId\": \"user-id-001\"}",
     body: req.body
   };
   res.status(200).json(result)
